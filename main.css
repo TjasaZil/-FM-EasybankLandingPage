@@ -6,3 +6,7 @@
 body {
   @apply font-public-sans text-sm;
 }
+
+p {
+  @apply !leading-7;
+}

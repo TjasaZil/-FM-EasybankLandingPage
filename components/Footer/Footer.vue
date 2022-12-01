@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Button from '../Button/Button.vue';
+import Layout from '../Layout/Layout.vue';
 
 const socialIcons = [
   {
@@ -39,9 +40,7 @@ const Links2 = [
 
 <template>
   <footer class="bg-primary-dark-blue">
-    <div
-      class="max-w-[1200px] mx-auto py-10 flex flex-col lg:flex-row justify-between gap-6 px-4 md:px-8 xl:px-0"
-    >
+    <Layout class="py-10 flex flex-col lg:flex-row justify-between gap-6">
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-32">
         <div class="flex justify-center flex-col gap-2">
           <svg
@@ -113,6 +112,6 @@ const Links2 = [
           Easybank. All Rights Reserved
         </p>
       </div>
-    </div>
+    </Layout>
   </footer>
 </template>

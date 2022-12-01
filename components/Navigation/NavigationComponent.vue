@@ -1,7 +1,7 @@
 <template>
-  <MobileNavigationComponent class="xl:hidden" /><DesktopNavigationComponent
-    class="hidden xl:flex"
-  />
+  <MobileNavigationComponent
+    class="z-20 xl:hidden"
+  /><DesktopNavigationComponent class="hidden xl:flex" />
 </template>
 <script>
 import MobileNavigationComponent from './MobileNavigationComponent.vue';

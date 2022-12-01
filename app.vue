@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <MobileNavigationComponent />
+  <div class="bg-green-600 h-screen">
+    <NavigationComponent />
   </div>
 </template>

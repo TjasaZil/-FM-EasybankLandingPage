@@ -13,17 +13,15 @@
           {{ text }}
         </li>
       </ul>
-      <button
-        class="text-white px-10 py-3 text-lg rounded-full font-semibold bg-gradient-to-br from-primary-lime-green to to-primary-bright-cyan hover:opacity-75 capitalize"
-      >
-        request invite
-      </button>
+      <Button text="Request Invite"></Button>
     </div>
   </section>
 </template>
 <script>
+import Button from '../Button/Button.vue';
 export default {
   name: 'DesktopNavigationComponent',
+  components: { Button },
   data() {
     return {
       texts: ['home', 'about', 'contact', 'blog', 'careers'],

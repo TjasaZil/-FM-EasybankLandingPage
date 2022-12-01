@@ -36,7 +36,7 @@ export default {
   name: 'MobileNavigationComponent',
   data() {
     return {
-      menuIsOpen: false,
+      menuIsOpen: true,
       texts: ['home', 'about', 'contact', 'blog', 'careers'],
     };
   },

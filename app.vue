@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-600 h-screen">
+  <div class="h-screen">
     <NavigationComponent />
   </div>
   <Footer />

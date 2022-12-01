@@ -26,7 +26,7 @@ import Button from '../Button/Button.vue';
     </Layout>
     <div class="">
       <img
-        class="absolute lg:-top-[10rem] lg:-right-[13rem] z-[1] xl:-right-[5rem]"
+        class="z-[1] absolute lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
         src="../../assets/images/image-mockups.png"
         alt="mockups"
       />

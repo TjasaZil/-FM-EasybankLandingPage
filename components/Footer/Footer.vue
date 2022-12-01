@@ -39,7 +39,7 @@ const Links2 = [
 </script>
 
 <template>
-  <footer class="bg-primary-dark-blue">
+  <footer class="bg-primary-dark-blue mt-20">
     <Layout class="py-10 flex flex-col lg:flex-row justify-between gap-6">
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-32">
         <div class="flex justify-center flex-col gap-2">
@@ -85,20 +85,20 @@ const Links2 = [
         </div>
 
         <ul class="flex justify-center lg:justify-start flex-col gap-3">
-          <li v-for="link in Links1" class="mx-auto">
+          <li v-for="link in Links1" class="mx-auto lg:mx-0">
             <a
               :href="link.url"
-              class="text-center lg:text-start text-neutral-light-grayish-blue text-sm hover:text-primary-lime-green duration-200 ease-out"
+              class="text-center lg:text-left text-neutral-light-grayish-blue text-sm hover:text-primary-lime-green duration-200 ease-out"
               >{{ link.label }}</a
             >
           </li>
         </ul>
 
         <ul class="flex flex-col gap-3">
-          <li v-for="link in Links2" class="mx-auto">
+          <li v-for="link in Links2" class="mx-auto lg:mx-0">
             <a
               :href="link.url"
-              class="text-neutral-light-grayish-blue text-sm hover:text-primary-lime-green duration-200 ease-out"
+              class="text-neutral-light-grayish-blue lg:text-left text-sm hover:text-primary-lime-green duration-200 ease-out"
               >{{ link.label }}</a
             >
           </li>

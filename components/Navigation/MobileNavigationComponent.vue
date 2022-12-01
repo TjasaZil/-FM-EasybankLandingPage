@@ -13,16 +13,16 @@
         <img
           alt="mobile hamburger icon"
           src="@/assets/images/icon-close.svg"
-          class="w-5 h-5 hover:cursor-pointer"
+          class="w-6 h-6 hover:cursor-pointer"
           @click="openMenu"
         />
         <ul
-          class="bg-gradient-to-b from-blue-900 to-blue-50 w-full absolute top-16 left-0 mx-auto text-center pt-7 h-screen"
+          class="bg-gradient-to-b from-primary-dark-blue to-transparent w-full absolute top-16 left-0 mx-auto text-center pt-7 h-screen"
         >
           <li
             v-for="text in texts"
             :key="text"
-            class="bg-white w-11/12 mx-auto capitalize py-6 text-2xl hover:underline hover:font-semibold"
+            class="bg-white w-11/12 mx-auto capitalize py-6 text-2xl hover:underline hover:font-semibold text-primary-dark-blue"
           >
             {{ text }}
           </li>

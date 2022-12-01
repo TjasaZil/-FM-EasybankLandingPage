@@ -9,7 +9,7 @@
         Why Choose Easybank?
       </h2>
       <p
-        class="max-w-[635px] mx-auto lg:text-left lg:mx-0 text-neutral-grayish-blue text-base leading-5 mt-6"
+        class="max-w-[635px] mx-auto lg:text-left lg:mx-0 text-neutral-grayish-blue text-base leading-5 mt-6 lg:text-[17px]"
       >
         We leverage Open Banking to turn your bank account into your financial
         hub. Control your finances like never before.
@@ -20,7 +20,7 @@
         <div
           v-for="render in renders"
           :key="render"
-          class="max-w-[255px] flex flex-col mx-auto text-center justify-center content-center space-y-5 mt-8"
+          class="max-w-[255px] lg:w-1/5 xl:w-1/4 flex flex-col mx-auto text-center justify-center content-center space-y-5 lg:space-y-6 lg:mx-0 mt-8"
         >
           <img
             :src="render.img"
@@ -30,7 +30,9 @@
           <h3 class="capitalize text-2xl text-primary-dark-blue lg:text-left">
             {{ render.heading }}
           </h3>
-          <p class="text-neutral-grayish-blue text-base leading-5 lg:text-left">
+          <p
+            class="text-neutral-grayish-blue text-base leading-5 lg:text-left lg:leading-6"
+          >
             {{ render.text }}
           </p>
         </div>

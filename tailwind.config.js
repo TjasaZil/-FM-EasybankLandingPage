@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'public-sans': ['Public Sans', 'sans-serif'],
+      },
       colors: {
         primary: {
           'dark-blue': 'hsl(233, 26%, 24%)',

@@ -8,7 +8,7 @@
         <li
           v-for="text in texts"
           :key="text"
-          class="capitalize hover:border-b-4 text-neutral-grayish-blue hover:border-b-primary-bright-cyan text-lg hover:text-primary-dark-blue py-6"
+          class="capitalize hover:border-b-4 text-neutral-grayish-blue hover:border-b-primary-bright-cyan text-lg hover:text-primary-dark-blue py-6 hover:cursor-pointer"
         >
           {{ text }}
         </li>
@@ -17,15 +17,6 @@
     </div>
   </section>
 </template>
-<script>
-import Button from '../Button/Button.vue';
-export default {
-  name: 'DesktopNavigationComponent',
-  components: { Button },
-  data() {
-    return {
-      texts: ['home', 'about', 'contact', 'blog', 'careers'],
-    };
-  },
-};
+<script setup lang="ts">
+const texts = ['home', 'about', 'contact', 'blog', 'careers'];
 </script>

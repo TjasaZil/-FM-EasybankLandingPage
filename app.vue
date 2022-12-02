@@ -4,6 +4,7 @@
     <main>
       <Hero />
       <EasybankTextComponent />
+      <ArticleComponent />
     </main>
 
     <Footer />

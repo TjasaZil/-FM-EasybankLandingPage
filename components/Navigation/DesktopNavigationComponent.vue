@@ -1,7 +1,7 @@
 <template>
   <section class="z-20 w-full h-20 absolute top-0 left-0 mx-auto bg-white">
     <div
-      class="w-10/12 max-w-7xl mx-auto h-full flex justify-between items-center"
+      class="w-10/12 max-w-6xl mx-auto h-full flex justify-between items-center"
     >
       <img alt="easybank logo" src="@/assets/images/logo.svg" class="h-5" />
       <ul class="flex justify-center items-center space-x-14">

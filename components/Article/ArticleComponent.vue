@@ -14,7 +14,7 @@
         <div
           v-for="text in texts"
           :key="text"
-          class="flex flex-col justify-center items-start text-left mx-auto lg:mx-0 max-w-[327px] lg:w-[255px] space-y-4 lg:space-y-0 mt-16 max-h-[395px]"
+          class="flex flex-col justify-center items-start text-left mx-auto lg:w-1/5 lg:mx-0 max-w-[327px] lg:max-w-[255px] space-y-4 lg:space-y-0 mt-16 max-h-[395px]"
         >
           <img
             class="rounded-md lg:w-[255px]"

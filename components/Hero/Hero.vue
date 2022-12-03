@@ -4,7 +4,7 @@ import Button from '../Button/Button.vue';
 </script>
 
 <template>
-  <section class="pt-16 overflow-hidden relative max-w-6xl mx-auto">
+  <section class="pt-16 overflow-hidden relative mx-auto">
     <Layout
       class="flex flex-col lg:flex-row justify-between relative bg-[url('../../assets/images/bg-intro-mobile.svg')] bg-cover bg-center"
     >

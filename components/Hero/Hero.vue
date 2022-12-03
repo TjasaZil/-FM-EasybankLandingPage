@@ -5,8 +5,10 @@ import Button from '../Button/Button.vue';
 
 <template>
   <section class="pt-16 overflow-hidden relative">
-    <Layout class="flex flex-col lg:flex-row justify-between relative">
-      <div class="lg:max-w-[25rem] mt-72 mb-20 lg:my-36 block">
+    <Layout
+      class="flex flex-col lg:flex-row justify-between relative bg-[url('../../assets/images/bg-intro-mobile.svg')] bg-cover bg-center"
+    >
+      <div class="lg:max-w-[25rem] mt-80 md:mt-96 mb-20 lg:my-36 block">
         <h1
           class="text-primary-dark-blue font-medium text-4xl lg:text-5xl text-center lg:text-start"
         >
@@ -26,12 +28,22 @@ import Button from '../Button/Button.vue';
     </Layout>
     <div class="">
       <img
-        class="z-[1] absolute lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
+        class="z-[1] w-[20rem] md:w-[27rem] left-1/2 -translate-x-1/2 -top-20 absolute lg:left-auto lg:w-auto lg:max-w-fit lg:-translate-x-0 lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
         src="../../assets/images/image-mockups.png"
         alt="mockups"
       />
+      <!-- <img
+        class="z-[1] absolute lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
+        src="../../assets/images/image-mockups.png"
+        alt="mockups"
+      /> -->
       <img
-        class="absolute lg:-top-[15rem] lg:-right-[25rem] xl:-right-[25rem]"
+        class="lg:hidden absolute w-full h-[20rem] md:h-[26rem] top-[64px] left-0 right-0"
+        src="../../assets/images/bg-intro-mobile.svg"
+        alt="hero image"
+      />
+      <img
+        class="hidden lg:block absolute lg:-top-[15rem] lg:-right-[25rem] xl:-right-[25rem]"
         src="../../assets/images/bg-intro-desktop.svg"
         alt="hero image"
       />

@@ -4,7 +4,7 @@ import Button from '../Button/Button.vue';
 </script>
 
 <template>
-  <section class="pt-16 overflow-hidden relative mx-auto">
+  <section class="pt-16 overflow-hidden relative mx-auto max-w-6xl">
     <Layout
       class="flex flex-col lg:flex-row justify-between relative bg-[url('../../assets/images/bg-intro-mobile.svg')] bg-cover bg-center"
     >
@@ -28,7 +28,7 @@ import Button from '../Button/Button.vue';
     </Layout>
     <div class="">
       <img
-        class="z-[1] w-[20rem] md:w-[27rem] left-1/2 -translate-x-1/2 -top-20 absolute lg:left-auto lg:w-auto lg:max-w-fit lg:-translate-x-0 lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
+        class="w-[20rem] md:w-[27rem] left-1/2 -translate-x-1/2 -top-20 z-[1] absolute lg:left-auto lg:w-auto lg:max-w-fit lg:-translate-x-0 lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
         src="../../assets/images/image-mockups.png"
         alt="mockups"
       />

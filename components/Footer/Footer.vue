@@ -47,7 +47,7 @@ const Links2 = [
 <template>
   <footer class="bg-primary-dark-blue mt-20">
     <Layout
-      class="py-10 flex flex-col lg:flex-row justify-between gap-6 max-w-7xl"
+      class="py-10 flex flex-col lg:flex-row justify-between gap-6 max-w-5xl"
     >
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-32">
         <div class="flex justify-center flex-col gap-2">

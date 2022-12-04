@@ -5,23 +5,23 @@ import Layout from '../Layout/Layout.vue';
 const socialIcons = [
   {
     name: 'facebook',
-    url: '../../assets/images/icon-facebook.svg',
+    url: '/_nuxt/assets/images/icon-facebook.svg',
   },
   {
     name: 'youtube',
-    url: '../../assets/images/icon-youtube.svg',
+    url: '/_nuxt/assets/images/icon-youtube.svg',
   },
   {
     name: 'twitter',
-    url: '../../assets/images/icon-twitter.svg',
+    url: '/_nuxt/assets/images/icon-twitter.svg',
   },
   {
     name: 'pinterest',
-    url: '../../assets/images/icon-pinterest.svg',
+    url: '/_nuxt/assets/images/icon-pinterest.svg',
   },
   {
     name: 'instagram',
-    url: '../../assets/images/icon-instagram.svg',
+    url: '/_nuxt/assets/images/icon-instagram.svg',
   },
 ];
 

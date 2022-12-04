@@ -1,27 +1,33 @@
 <script setup lang="ts">
+import { ExecFileOptionsWithOtherEncoding } from 'child_process';
 import Button from '../Button/Button.vue';
 import Layout from '../Layout/Layout.vue';
+import Facebook from '@/assets/images/icon-facebook.svg';
+import Youtube from '@/assets/images/icon-youtube.svg';
+import Twitter from '@/assets/images/icon-twitter.svg';
+import Pinterest from '@/assets/images/icon-pinterest.svg';
+import Instagram from '@/assets/images/icon-instagram.svg';
 
 const socialIcons = [
   {
     name: 'facebook',
-    url: '/_nuxt/assets/images/icon-facebook.svg',
+    url: Facebook,
   },
   {
     name: 'youtube',
-    url: '/_nuxt/assets/images/icon-youtube.svg',
+    url: Youtube,
   },
   {
     name: 'twitter',
-    url: '/_nuxt/assets/images/icon-twitter.svg',
+    url: Twitter,
   },
   {
     name: 'pinterest',
-    url: '/_nuxt/assets/images/icon-pinterest.svg',
+    url: Pinterest,
   },
   {
     name: 'instagram',
-    url: '/_nuxt/assets/images/icon-instagram.svg',
+    url: Instagram,
   },
 ];
 

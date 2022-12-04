@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full flex flex-col justify-center items-center mt-10 py-20 mx-auto bg-neutral-light-grayish-blue lg:mt-0 relative -z-10"
+    class="w-full flex flex-col justify-center items-center py-20 mx-auto lg:-mt-20 bg-neutral-light-grayish-blue relative z-10"
   >
     <div
       class="w-10/12 mx-auto text flex flex-col justify-center content-center text-center max-w-6xl"

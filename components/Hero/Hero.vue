@@ -4,7 +4,7 @@ import Button from '../Button/Button.vue';
 </script>
 
 <template>
-  <section class="pt-16 overflow-hidden relative mx-auto max-w-6xl">
+  <section class="pt-16 overflow-hidden relative mx-auto max-w-7xl pb-28">
     <Layout
       class="flex flex-col lg:flex-row justify-between relative bg-[url('../../assets/images/bg-intro-mobile.svg')] bg-cover bg-center"
     >
@@ -28,15 +28,11 @@ import Button from '../Button/Button.vue';
     </Layout>
     <div class="">
       <img
-        class="w-[20rem] md:w-[27rem] left-1/2 -translate-x-1/2 -top-20 z-[1] absolute lg:left-auto lg:w-auto lg:max-w-fit lg:-translate-x-0 lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
+        class="w-[20rem] md:w-[27rem] left-1/2 -translate-x-1/2 -top-20 z-30 absolute lg:left-auto lg:w-auto lg:max-w-fit lg:-translate-x-0 lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
         src="../../assets/images/image-mockups.png"
         alt="mockups"
       />
-      <!-- <img
-        class="z-[1] absolute lg:-top-[10rem] lg:-right-[13rem] xl:-right-[5rem]"
-        src="../../assets/images/image-mockups.png"
-        alt="mockups"
-      /> -->
+
       <img
         class="lg:hidden absolute w-full h-[20rem] md:h-[26rem] top-[64px] left-0 right-0"
         src="../../assets/images/bg-intro-mobile.svg"
